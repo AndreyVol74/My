@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.block {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.block img {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.block p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.block.rtl {
+    direction: rtl;
+    margin-right: 0;
+}
+
+.block.rtl img {
+	width: 50%;
+    height: auto;
+    float: right;
+}
